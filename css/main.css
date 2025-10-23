@@ -15,6 +15,10 @@
     height: 30vh;
 }
 
+.sunflower-wrapper.grow {
+    height: 50vh;
+}
+
 .grass {
     background-color: brown;
     border-top: 15px solid green;
@@ -47,4 +51,10 @@
 .sunflower-top img {
     width: 100px;
     height: 100px;
+}
+
+.sunflower-wrapper.grow img,
+.sunflower-wrapper.grow .sunflower-top {
+    width: 200px;
+    height: 200px;
 }
